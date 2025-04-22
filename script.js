@@ -67,7 +67,7 @@ carregarMaisNumeros();
 verMaisBtn.addEventListener('click', carregarMaisNumeros);
 
 function enviarParaWhatsApp() {
-    const precoPorNumero = 3.50; // Valor por número (pode ser alterado)
+    const precoPorNumero = 1.98; // Valor por número (pode ser alterado)
     const selectedNumbers = [];
     const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked:not(:disabled)');
 
