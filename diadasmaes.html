@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifa de Dia das Mães - Um Presente de Amor</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <img src="imagem_mae.jpg" alt="Imagem de Dia das Mães"
+        style="display: block; margin: 0 auto 20px; max-width: 200px; height: auto; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+    <h2 style="text-align: center; color: #f48fb1; margin-bottom: 10px;">Concorra a um lindo presente para sua Mãe!</h2>
+    <h1>Rifa de Dia das Mães - Um Presente de Amor</h1>
+    <p style="text-align: center;">Escolha seus números da sorte e celebre o amor materno!</p>
+
+    <div id="legend-vendidos" style="display: none;">Números Vendidos</div>
+
+    <div class="numbers-container" id="numbersContainer">
+    </div>
+
+    <button id="verMaisBtn">Ver Mais Números</button>
+
+    <div class="fixed-bottom-button">
+        <button onclick="enviarParaWhatsApp()">Comprar Números Selecionados</button>
+    </div>
+
+    <div id="message-container" style="display: none;">
+        <strong>Mensagem para o WhatsApp:</strong>
+        <p id="whatsappMessage"></p>
+    </div>
+
+
+    <!-- Importando o JS externo -->
+    <script src="script.js"></script>
+</body>
+
+</html>
