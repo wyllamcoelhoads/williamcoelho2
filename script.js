@@ -11,7 +11,7 @@ const numerosPorCarregamento = 100; // Quantos números mostrar por vez
 let numerosCarregados = 0;
 
 // Lista de números já vendidos (você precisará atualizar esta lista)
-const numerosVendidos = [1, 4, 14, 20, 42, 52, 85, 87, 91, 100,30, 36, 59];
+const numerosVendidos = [1, 4, 14, 20, 42, 52, 85, 87, 91, 100,30, 36, 59,10,11];
 
 // Função para marcar os números vendidos
 function marcarNumerosVendidos(listaVendidos) {
