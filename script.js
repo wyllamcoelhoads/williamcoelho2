@@ -7,7 +7,7 @@ const legendVendidos = document.getElementById('legend-vendidos');
 const verMaisBtn = document.getElementById('verMaisBtn');
 
 const totalNumeros = 1000;
-const numerosPorCarregamento = 100; // Quantos números mostrar por vez
+const numerosPorCarregamento = 200; // Quantos números mostrar por vez
 let numerosCarregados = 0;
 
 // Lista de números já vendidos (você precisará atualizar esta lista)
