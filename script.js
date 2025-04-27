@@ -33,6 +33,10 @@ if (verificarNumerosRepetidos(numerosVendidos)) {
   console.log("Não há números repetidos na lista de números vendidos.");
 }
 
+// Informa o número de números vendidos
+console.log(`Total de números vendidos: ${numerosVendidos.length}`);
+
+
 // Função para marcar os números vendidos
 function marcarNumerosVendidos(listaVendidos) {
     if (listaVendidos.length > 0) {
