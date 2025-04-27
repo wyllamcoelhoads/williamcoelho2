@@ -6,7 +6,7 @@ const messageContainer = document.getElementById('message-container');
 const legendVendidos = document.getElementById('legend-vendidos');
 const verMaisBtn = document.getElementById('verMaisBtn');
 
-const totalNumeros = 1000;
+const totalNumeros = 600;
 const numerosPorCarregamento = 200; // Quantos números mostrar por vez
 let numerosCarregados = 0;
 
