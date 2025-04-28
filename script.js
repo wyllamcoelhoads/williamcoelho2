@@ -24,7 +24,8 @@ function verificarNumerosRepetidos(array) {
 }
 
 // Lista de números já vendidos (você precisará atualizar esta lista)
-const numerosVendidos = [1, 4, 14, 20, 42, 52, 85, 87, 91, 100,30, 36, 59,10,11,6, 12, 23, 33, 81, 2, 3, 29,8, 15, 16, 24, 27, 28, 31, 99, 13 ,21 ,25, 32, 34,35, 38, 39, 40, 44, 47, 49, 54, 55,58, 67, 77, 5, 7, 17, 18, 43, 46, 22, 45, 71, 300,50, 51, 53, 56, 57, 92, 93, 94, 95, 96,9, 19, 26, 37, 48, 66, 69, 80, 82, 83, 90, 177,60, 65, 70, 114, 313];
+const numerosVendidos = [1, 4, 14, 20, 42, 52, 85, 87, 91, 100,30, 36, 59,10,11,6, 12, 23, 33, 81, 2, 3, 29,8, 15, 16, 24, 27, 28, 31, 99, 13 ,21 ,25, 32, 34,35, 38, 39, 40, 44, 47, 49, 54, 55,58, 67, 77, 5, 7, 17, 18, 43, 46, 22, 45, 71, 300,50, 51, 53, 56, 57, 92, 93, 94, 95, 96,9, 19, 26, 37, 48, 66, 69, 80, 82, 83, 90, 177,60, 65, 70, 114, 313, 41, 61, 62, 63, 64, 68, 76, 78, 79, 84 ];
+console.log(`antes ${numerosVendidos.length}`);
 
 // Verifica se há números repetidos na lista de vendidos e loga no console
 if (verificarNumerosRepetidos(numerosVendidos)) {
